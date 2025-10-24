@@ -67,11 +67,11 @@ Mathworks-minidrone-competition-2025/
 
 ## 🧑‍💻 Contributors
 
-| Name | Role | GitHub |
-|------|------|--------|
-| **Haimavatinandan Pati** | Modeling & Vision-Based Control | [@Haimavatinandan2004Pati](https://github.com/Haimavatinandan2004Pati) |
-| **Ayush Kumar Sahu** | Simulation, Testing & Path Planning | — |
-| **Anup Asish Dash** | System Integration & Documentation | — |
+| Name | GitHub |
+|------|-------|
+| **Haimavatinandan Pati** | [@Haimavatinandan2004Pati](https://github.com/Haimavatinandan2004Pati) |
+| **Ayush Kumar Sahu** | — |
+| **Anup Asish Dash** | — |
 
 ---
 
