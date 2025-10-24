@@ -1,0 +1,53 @@
+# ===============================
+# MATLAB & Simulink .gitignore
+# For MathWorks Minidrone projects
+# ===============================
+
+# Simulink generated folders
+slprj/
+work/
+codegen/
+cache/
+*_ert_rtw/
+sfun/
+build/
+mex/
+
+# MATLAB autosave and backup files
+*.asv
+*.autosave
+
+# Simulation output and logs
+*.mat
+*.log
+*.txt
+*.csv
+*.mdl.bak
+*.slx.bak
+
+# Compiled binaries
+*.mex*
+*.dll
+*.so
+*.a
+*.exe
+*.obj
+*.o
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jet files for minidrone project
+*.zip
+*.tar
+*.tgz
+
+# MATLAB project metadata (optional)
+# Uncomment if you don’t want to track the MATLAB project file itself
+# *.prj
+
+# Ignore temporary files created by editors
+*~
+*.swp
