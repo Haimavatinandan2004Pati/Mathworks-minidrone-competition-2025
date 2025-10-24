@@ -30,28 +30,27 @@ The project integrates **image processing, nonlinear path planning, and autonomo
 
 ## 🧩 Project Structure
 
+```
 Mathworks-minidrone-competition-2025/
 │
-├── controller/ # Drone control systems (PID, cascaded loops, Stateflow logic)
-├── libraries/ # Custom Simulink library blocks
-├── linearAirframe/ # Linearized dynamic models for analysis and tuning
-├── mainModels/ # Primary competition models
-├── nonlinearAirframe/ # Nonlinear simulation and validation models
-├── resources/project/ # Resource and configuration files
-├── support/ # Support scripts and helper functions
-├── tasks/ # Mission-specific task files
-├── tests/ # Simulation validation and test scripts
-├── utilities/ # Custom plotting, post-processing utilities
-├── work/ # Simulink work directory
+├── controller/          # Drone control systems (PID, cascaded loops, Stateflow logic)
+├── libraries/           # Custom Simulink library blocks
+├── linearAirframe/      # Linearized dynamic models for analysis and tuning
+├── mainModels/          # Primary competition models
+├── nonlinearAirframe/   # Nonlinear simulation and validation models
+├── resources/project/   # Resource and configuration files
+├── support/             # Support scripts and helper functions
+├── tasks/               # Mission-specific task files
+├── tests/               # Simulation validation and test scripts
+├── utilities/           # Custom plotting, post-processing utilities
+├── work/                # Simulink work directory
 │
-├── variables.m # Simulation parameters and constants
-├── MinidroneCompetition.prj # MATLAB project file
-├── LICENSE # MIT License
-├── .gitignore # MATLAB/Simulink ignore configuration
-└── README.md # Documentation
-
-yaml
-Copy code
+├── variables.m          # Simulation parameters and constants
+├── MinidroneCompetition.prj  # MATLAB project file
+├── LICENSE              # MIT License
+├── .gitignore           # MATLAB/Simulink ignore configuration
+└── README.md            # Documentation
+```
 
 ---
 
@@ -81,30 +80,37 @@ Copy code
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Haimavatinandan2004Pati/Mathworks-minidrone-competition-2025.git
-Open MATLAB and load the project:
+   ```
+2. **Open MATLAB and load the project:**
+   ```matlab
+   openProject('MinidroneCompetition.prj');
+   ```
+3. **Run the main Simulink model:**
+   Open the file in the `mainModels/` directory and start the simulation.  
+4. **Adjust variables:**  
+   Modify mission parameters in `variables.m` for different flight scenarios.  
+5. **Analyze results:**  
+   Use scripts in the `utilities/` folder for data visualization and performance evaluation.
 
-matlab
-Copy code
-openProject('MinidroneCompetition.prj');
-Run the main Simulink model:
-Open the file in the mainModels/ directory and start the simulation.
+---
 
-Adjust variables:
-Modify mission parameters in variables.m for different flight scenarios.
+## 🏆 Competition Result
 
-Analyze results:
-Use scripts in the utilities/ folder for data visualization and performance evaluation.
+**Event:** MathWorks MiniDrone Competition 2025, IIT Hyderabad (TiHAN)  
+**Team:** DRANZER  
+**Achievement:** 🥇 *Secured 4th Place*  
+**Recognition:** Advanced to the **Final Round (Top 10 Teams)** for outstanding performance in control design and vision-based navigation.
 
-🏆 Competition Result
-Event: MathWorks MiniDrone Competition 2025, IIT Hyderabad (TiHAN)
-Team: DRANZER
-Achievement: 🥇 Secured 4th Place
-Recognition: Advanced to the Final Round (Top 10 Teams) for outstanding performance in control design and vision-based navigation.
+---
 
-📜 License
-This project is licensed under the MIT License.
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).  
 Feel free to use, modify, and distribute with proper attribution.
 
-🙏 Acknowledgments
-Special thanks to MathWorks, IIT Hyderabad (TiHAN), and the MathWorks Student Competitions Team for providing the platform, resources, and support.
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to **MathWorks**, **IIT Hyderabad (TiHAN)**, and the **MathWorks Student Competitions Team** for providing the platform, resources, and support.  
 We also extend our gratitude to our mentors and university for their guidance throughout the competition.
